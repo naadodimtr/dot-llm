@@ -2,5 +2,12 @@
 
 Nothing but .......
 
+An experiment to see if I can create an LLM to print just dots no matter what the input is
 
-An experiment to see if I can create an LLM for just dots
+### Versions
+
+| Version  | Languages                                                                                         | Status |
+|----------|---------------------------------------------------------------------------------------------------|--------|
+| 1        | Plain English Alphanumeric a-zA-Z1-9 and <br/>Special Chars ``!"#$%&'()*+,-/:;<=>?@[\]^_`{\|}~.`` |        |
+|          |                                                                                                   |        |
+

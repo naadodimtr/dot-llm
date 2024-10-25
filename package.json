@@ -1,0 +1,27 @@
+{
+  "name": "dot-llm",
+  "version": "1.0.0",
+  "description": "Nothing but ....",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naadodimtr/dot-llm.git"
+  },
+  "author": "Naadodi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naadodimtr/dot-llm/issues"
+  },
+  "homepage": "https://github.com/naadodimtr/dot-llm#readme",
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
