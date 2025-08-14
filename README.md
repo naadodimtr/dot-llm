@@ -7,6 +7,13 @@ If all a model does is to predict next token then is it possible to build a mode
 DotLLM is a per‑character binary classifier (not an LLM, the name is just for being catchy) that converts text into a corresponding pattern of dots and spaces,
 following the rule of one dot per character (except for spaces)
 
+## Demo
+
+![DotLLM Demo](demo.gif)
+
+This demo shows DotLLM in action, converting input text into patterns of dots while preserving spaces. Watch as each
+character gets transformed into a single dot in real-time.
+
 ### Prerequisites
 
 - Python 3.x
